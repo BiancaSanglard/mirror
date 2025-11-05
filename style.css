@@ -1,0 +1,90 @@
+body{
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.img.logo{
+    width:230px; 
+    height: 85px;
+}
+
+.tituloSobre{
+    background-color: #B3B3B0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.img.centro-distribuicao{
+    width: 500 px;
+    height: 350 px;
+
+}
+
+.centro-distribuicao{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+    width: 590px;
+    background-color: #F7F3F0;
+    padding-top: 20px; 
+    padding-bottom: 10px;
+    border: 1px solid rgb(187, 186, 186);
+}
+
+.titulo{
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+hr{ 
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.familia-pelho{
+    text-align: center;
+    display: block;
+    width: 330px;
+    background-color: #F7F3F0;
+    padding-top: 20px; 
+    padding-bottom: 10px;
+    border: 1px solid rgb(187, 186, 186);
+    float: right;
+    margin: 0 15px 15px 0;
+}
+
+.texto-lado{
+    width: 550px;
+    margin-right: 12px;
+    margin-top: 0px;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.texto-baixo, .textoSobre{
+    width: 900px;
+    margin-top: 0px;
+    font-size: 16px; 
+    margin-left: 25px;
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 38px;
+    font-size: 16px; 
+}
+
+.textoSobre, .texto-baixo, .texto-lado, li, .titulo, .tituloSobre, .textoImagem{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.textoImagem{
+    font-style: italic;
+}

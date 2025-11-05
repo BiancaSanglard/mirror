@@ -146,7 +146,13 @@ footer .social {
     top: 30px;
     right: 0;
 }
-footer .social img {
+
+footer .social i {
+    font-size: 32px;
     margin-left: 10px;
-    width: 32px;
+    color: #333;
+}
+
+footer .social a {
+    text-decoration: none;
 }
